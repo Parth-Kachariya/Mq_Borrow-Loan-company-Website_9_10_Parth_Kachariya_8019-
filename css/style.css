@@ -16,6 +16,7 @@ header {
 .templates {
   max-width: 100%;
   display: flex;
+  text-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   padding: 10px 10px;
@@ -153,21 +154,13 @@ li a:hover {
   font-weight: 600;
   text-align: center;
   display: flex;
-  background-color: #624bff;
-  padding: 10px 15px;
-  border-radius: 5px;
+  text-decoration: 2px underline #4e3ccf;
+  text-underline-offset: 4px;
   text-wrap: nowrap;
-  color: white;
-}
-.buy_now-btn {
-  width: 21%;
- 
-}
-.buy_now-btn:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #4e3ccf;
+  color: #4e3ccf;
   cursor: pointer;
 }
+
 /* type of loan */
 .loan {
   background-color: #f8f9fa;
@@ -187,7 +180,6 @@ li a:hover {
 }
 .data {
   text-align: left;
-
   padding-left: 20px;
   font-weight: bold;
 }
@@ -706,8 +698,8 @@ hr {
   text-wrap: nowrap;
   color: rgb(157, 153, 153);
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  /* flex-wrap: wrap;
+  flex-direction: column; */
   justify-content: space-between;
   font-size: 13px;
 }

@@ -289,7 +289,7 @@ xl  >=1199px
 
   .type_of_loan {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 20px;
   }
   .loans {

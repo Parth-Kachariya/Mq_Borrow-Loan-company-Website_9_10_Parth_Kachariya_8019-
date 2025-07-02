@@ -45,8 +45,8 @@ xl  >=1199px
   }
   /* hero section */
   .hero_section_detail {
-    top: 220px;
-    left: 100px;
+    top: 90px;
+    left: 70px;
   }
   .hero_section_detail h1 {
     font-size: 25px;
@@ -272,9 +272,10 @@ xl  >=1199px
     border: 1px solid #4e3ccf;
   }
   /* hero section */
+  
   .hero_section_detail {
-    top: 180px;
-    left: 100px;
+    top: 80px;
+    left: 60px;
   }
   .hero_section_detail h1 {
     font-size: 25px;
@@ -518,8 +519,8 @@ xl  >=1199px
   }
   /* hero section */
   .hero_section_detail {
-    top: 200px;
-    left: 100px;
+    top: 50px;
+    left: 40px;
   }
   .hero_section_detail h1 {
     font-size: 20px;
@@ -801,8 +802,8 @@ xl  >=1199px
   }
   /* hero section */
   .hero_section_detail {
-    top: 200px;
-    left: 50px;
+    top: 40px;
+    left: 40px;
   }
   .hero_section_detail h1 {
     font-size: 13px;

@@ -118,18 +118,19 @@ li a:hover {
 .hero_section {
   width: 100%;
   object-fit: cover;
+  position: relative;
+
 }
 
 .hero_section_img img {
   width: 100%;
   object-fit: cover;
-  position: relative;
 }
 
 .hero_section_detail {
   position: absolute;
-  top: 250px;
-  left: 250px;
+  top: 100px;
+  left: 100px;
 }
 .hero_section_detail h1 {
   font-size: 50px;
